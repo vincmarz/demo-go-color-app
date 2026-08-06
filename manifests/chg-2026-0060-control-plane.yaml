@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chg-2026-0060-control-plane
+data:
+  changeNumber: CHG-2026-0060
+  applicationName: demo-go-color-app-gitlab
+  targetEnvironment: gitlab-gitops-dev
+  managedBy: devops-control-plane
